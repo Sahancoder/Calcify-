@@ -1,0 +1,44 @@
+# Calcify API – Python .gitignore
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*.vscode/
+
+# Environment files
+.env
+.env.local
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+
+# Pytest
+.pytest_cache/
+.coverage
+
+# Gunicorn
+*.pid
+
+# Poetry
+poetry.lock
+
+# Mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json

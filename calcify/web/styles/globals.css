@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #ffffff;
+  --fg: #0b0f12;
+}
+
+.dark :root {
+  --bg: #0c1116;
+  --fg: #e6e9ee;
+}
+
+.bg-background {
+  background: var(--bg);
+}
+
+.text-foreground {
+  color: var(--fg);
+}
+
+/* Brand colors */
+:root {
+  --brand-ink: #022b3a;
+  --brand-teal: #1f7a8c;
+  --brand-soft: #bfdbf7;
+  --brand-surface: #e1e5f2;
+}
+
+.text-brand-900 {
+  color: var(--brand-ink);
+}
+
+.text-brand-700 {
+  color: var(--brand-teal);
+}
+
+.bg-brand-700 {
+  background: var(--brand-teal);
+}
+
+.bg-brand-surface {
+  background: var(--brand-surface);
+}
+
+/* Utility */
+body {
+  font-family: ui-sans-serif, system-ui, -apple-system, segoe ui, roboto, inter, sans-serif;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
